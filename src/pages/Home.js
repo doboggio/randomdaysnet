@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
-import NavMenu from './Nav'
+import '../App.css';
 import Header from './Header'
 
 
@@ -8,11 +7,13 @@ class Home extends Component {
   render(){
     return (
       <div className="App">
-        <NavMenu />
         <Header />
-        <p>
+        
+        <body>
+          <br />
           Welcome to my website!!!
-        </p>
+        </body>
+        
       </div>
     );
   }
