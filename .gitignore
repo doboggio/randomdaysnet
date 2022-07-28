@@ -13,6 +13,8 @@ bower_components
 
 *.sublime*
 
+build
+
 psd
 thumb
 sketch
