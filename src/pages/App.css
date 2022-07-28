@@ -7,11 +7,16 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    /*animation: App-logo-spin infinite 20s linear;*/
-  }
+.NavMenu {
+  font: "Comic Sans MS";
+  font-family: cursive;
 }
+
+/*@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}*/
 
 .App-header {
   background-color: #0099FF;
@@ -28,11 +33,19 @@
   color: #000;
 }
 
-@keyframes App-logo-spin {
+/*@keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
+}*/
+ul.NavButton {
+  padding-left:0px;
+  text-align: center;
+}
+ul.NavButton > li{
+  display: inline-block;
+  padding: 10px 20px;
 }
