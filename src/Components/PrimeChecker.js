@@ -1,5 +1,5 @@
 import React from 'react';
-
+import MA from '../Ma-1.mp4';
 function isPrime(n) {
    if (n < 2) return false;
    if (n == 2 || n == 3) return true;
@@ -13,13 +13,29 @@ function isPrime(n) {
 function checkPrime(num) {
    if (num == 69) {
       return (
-         <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/3WAOxKOmR90?autoplay=1"
-            frameborder="0"
-            allowfullscreen
-         ></iframe>
+         <>
+            <iframe
+               width="560"
+               height="315"
+               src="https://www.youtube.com/embed/3WAOxKOmR90?autoplay=1"
+               frameborder="0"
+               allowfullscreen
+            ></iframe>
+            <h1>no prime but it's a nice number</h1>
+         </>
+      );
+   } else if (num == 47) {
+      return (
+         <>
+            <iframe
+               width="560"
+               height="315"
+               src={MA}
+               frameborder="0"
+               allowfullscreen
+            ></iframe>
+            <h1>47 is a funny number and it's also prime</h1>
+         </>
       );
    }
    if (Math.abs(num * Number.EPSILON) >= 2) {
